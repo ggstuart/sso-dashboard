@@ -115,15 +115,34 @@ There are two areas where improvements could be made:
 
 ## Personalise the dashboard
 
-Providing a personalised dashboard experience for each user is not simple, although enabling students to 'favourite' their uni and hall to load on their device by default, with the hall's position in the current competition, might be a step forward.
+A personalised dashboard experience implies that we provide different information depending on the user and their preferences/behaviour. This can have a number of benefits, a personalised experience is more engaging, hall-specific calls to action will be more relevant to the user and rewarding users for their commitment can be reinforcing.
 
-**NOTES TO DISCUSS:**
+Providing such an experience can be done in two ways. We can either:
 
-- students receive a fresh message or prompt each day to encourage them to participate, based on: weather (relevant tip), uni location, a rolling list of energy-saving tips.
+ - store preferences in the browser
+ - require a formal login process on the server
 
-- calls to action can capture student attention and encourage behaviour change
-- hall-specific calls to action may be more effective
-- students can receive encouraging messages about their hall's performance
-- a rolling pool of tips would make the leaderboard appear fresh
+The benefits of storing preferences in the browser are that the user need not create a username and password. Browser based storage can provide a significantly more personal experience than we currently have. For example:
 
-Requiring log in is an extra barrier. Either showing up on a visit to the dashboard, or as a notification pushed to students. Students could 'save'.
+ - Enabling students to 'favourite/follow' their university or hall
+ - Loading their favourite/followed university/halls by default
+ - Providing different advice/tips depending on their position in a competition
+ - recording the number of visits and rewarding the student with hidden features
+ - Providing a different experience for regular users
+
+Without logins we can still collect anonymous data. This might include university and hall-level data. Requiring student login is an extra barrier but would give us the ability to collect individual data and validate student emails for example.
+
+
+# Conclusions
+
+There are many areas where we can add new features. Some of the features described above are very clearly defined and can be actioned immediately. Other ideas are less well-defined and need more thought to tease out the concrete features lurking beneath the surface.
+
+ECOVISUM are only able to implement features when they are clearly developed and when they are small enough to be implemented in a short time-frame. That is not to say that larger features cannot be implemented, it means larger features need to be broken down into collections of smaller features. This lends clarity to the process and helps to reveal where the real value is to users.
+
+The task ahead is to set up an ongoing process of generating and prioritising features. ECOVISUM will do the hard work but the TAG will need to engage in the process and help steer us towards the best value. There are two main processes:
+
+1. Every month we need to pick a small number (about 2-4) of clearly-defined features which ECOVISUM will work on. We will aim to add the new functionality between TAG meetings. This is the 'sprint' schedule. Every month we will take on new features, the decision of which features we will implement will be made in the TAG meeting.
+
+2. We also need to make sure we have a long-list of concrete, well-defined features from which to draw from in each 'sprint'. ECOVISUM will continuously work to generate new concrete, actionable items for the list as long as there is enthusiasm for an area of development. We need to identify which of the less well-defined features we should focus on and how we might convert them into concrete features.
+
+We will maintain these lists on our github page [here](https://ggstuart.github.io/sso-dashboard/)
