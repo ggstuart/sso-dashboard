@@ -95,7 +95,7 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how the dashboard can be displayed and how it integrates with social media.
 
-The dashboard is available on any device with a web browser: phones, tablets, laptops and desktop-sized screens. and above, such as public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets.
+The dashboard is available on any device with a web browser: phones, tablets, laptops and desktop-sized screens. and above, such as public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
 
 - a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages.
 - A top-three "podium" style widget
