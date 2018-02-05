@@ -2,4 +2,4 @@
 
 For keeping track of features.
 
-
+Read the [complete document here](development-priorities.md).
