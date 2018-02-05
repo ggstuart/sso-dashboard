@@ -113,24 +113,6 @@ There are two areas where improvements could be made:
 
 3. Raw data are visible in the dashboard but there is limited functionality to manage and edit the raw data. When data are not perfect there is often a use-case for editing. Since the user interface is not so sophisticated, this whole aspect of the dashboard could be usefully overhauled. This links with graphical presentation of the data also.
 
-
-
-**NOTES TO DISCUSS:**
-
-- The data table still needs a more user-friendly means to review and edit the data.
-- Data gaps should be easily identified and filled with a few clicks.
-- Erroneous data should be easily purged or overwritten.
-- A dedicated interface for managing raw data could also enable monthly data manually to be entered by hand.
-
-The system currently allows a few simple methods for calculating target consumption. Although simple to use they prevent the dashboard administrators from using their local knowledge to determine suitable target values.
-
-- review the user interface for developing baseline targets to give the administrator more control e.g. setting a baseline would then show the calculated targets.
-
-- 'Degree day adjustments' are listed on the summary sheet from Dublin, how do we answer that?
-
-- Electrically-heated halls need a method for administrators to make changes specific to actual heating energy use via the dashboard rather than an external spreadsheet, to produce more realistic figures on the leaderboard.
-
-
 ## Personalise the dashboard
 
 Providing a personalised dashboard experience for each user is not simple, although enabling students to 'favourite' their uni and hall to load on their device by default, with the hall's position in the current competition, might be a step forward.
