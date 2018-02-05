@@ -95,6 +95,7 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how the dashboard can be displayed and how it integrates with social media.
 
+### Embeddable 'widgets'
 The dashboard is available on any device with a web browser: phones, tablets, laptops and desktop-sized screens. and above, such as public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
 
 - a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages.
@@ -102,11 +103,9 @@ The dashboard is available on any device with a web browser: phones, tablets, la
 - A single competitor widget showing one hall in a competition
 - A summary of the aggregate data for one competition
 
-**NOTES TO DISCUSS:**
+### Gamification of visits
 
-DAVE: I'm not sure about the like buttons for halls? How about showing up/down as we once had or highlighting improved halls?
-
-We could also consider gamification of dashboard visits. We could offer a 'like' button and record and present how many 'likes' a particular hall was getting. For example in a given competition, halls with a given number of 'likes' could be rewarded with a trophy or badge on the leaderboard (abuse?). We could set multiple levels and award e.g. bronze, silver and gold trophies for 10, 20 and 50 'likes'. These could then be set as tasks for students to visit the site and rack up the 'likes' to earn the trophies.
+We could also consider gamification of dashboard visits. We could offer a 'follow' button and record and present how many 'follows' a particular hall was getting. For example in a given competition, halls with a given number of 'follows' could be rewarded with a trophy or badge on the leaderboard. We could set multiple levels and award e.g. bronze, silver and gold trophies for 10, 20 and 50 'follows'. These could then be set as tasks for students to visit the site and rack up the 'follows' to earn the trophies.
 
 
 ## Review baseline calculations
