@@ -49,17 +49,9 @@ In addition to this there are areas in the administration system where raw data 
 
 **Potential solutions**
 
-- Displaying the same data in a graphical form would enable students to interpret their progress at a glance.
+- Displaying the same data in a graphical form would enable students to interpret their progress at a glance
 - an extra click could still open the (read-only for students) data table
-
-**The data table**
-
-With a graphical display, there's an opportunity to separate this functionality.
-
-- The data table still needs a more user-friendly means to review and edit the data.
-- Data gaps should be easily identified and filled with a few clicks.
-- Erroneous data should be easily purged or overwritten.
-- A dedicated interface for managing raw data could also enable monthly data manually to be entered by hand.
+- a graphical display of raw data would help administrators to identify data issues more easily
 
 
 ## Aggregate data per university
@@ -116,6 +108,11 @@ The data administration side of the dashboard is extremely demanding and time-co
 There are several tweaks and small improvements which could be made to the interface as well as major new approaches to the way baselines are created and managed. This area is an open territory but has unseen benefits for students in terms of reliability and trust in the dashboard.
 
 **NOTES TO DISCUSS:**
+
+- The data table still needs a more user-friendly means to review and edit the data.
+- Data gaps should be easily identified and filled with a few clicks.
+- Erroneous data should be easily purged or overwritten.
+- A dedicated interface for managing raw data could also enable monthly data manually to be entered by hand.
 
 The system currently allows a few simple methods for calculating target consumption. Although simple to use they prevent the dashboard administrators from using their local knowledge to determine suitable target values.
 
