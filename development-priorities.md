@@ -25,10 +25,10 @@ Hall competitor savings/increases are calculated by dividing into individual day
 
 **Potential solutions**
 
-1. Students only see the main competition and cannot access older competitions. 
+1. Students only see the main competition and cannot access older competitions.
 This solution removes the immediate problem in Cyprus (13 competitions listed) but does not add new functionality.
 
-2. Students only see relevant competitions - older competitions are 'archived' by administrators. 
+2. Students only see relevant competitions - older competitions are 'archived' by administrators.
 This introduces an element of more sophisticated competition management. Perhaps competitions can be published, archived or hidden? Students could view a list of archived competitions through an additional click.
 
 3. Competitions are (optionally) operated on a rolling basis.
@@ -70,7 +70,7 @@ Students cannot quantify the overall contribution of the competition. There is n
 
 **Potential solutions**
 
-1. Show absolute kWh, CO2 and possibly financial (currency?) savings figures against each competitor. 
+1. Show absolute kWh, CO2 and possibly financial (currency?) savings figures against each competitor.
 This might be initially hidden but could be revealed on clicking the competitor.
 
 2. Show a summary figure (kWh/CO2/currency) for the whole competition. Somewhere in the leaderboard it should be possible to display a total impact figure.
@@ -104,7 +104,7 @@ The dashboard is available on any device with a web browser: phones, tablets, la
 
 **NOTES TO DISCUSS:**
 
-DAVE: I'm not sure about thlike buttons for halls? How about showing up/down as we once had or highlighting improved halls?
+DAVE: I'm not sure about the like buttons for halls? How about showing up/down as we once had or highlighting improved halls?
 
 We could also consider gamification of dashboard visits. We could offer a 'like' button and record and present how many 'likes' a particular hall was getting. For example in a given competition, halls with a given number of 'likes' could be rewarded with a trophy or badge on the leaderboard (abuse?). We could set multiple levels and award e.g. bronze, silver and gold trophies for 10, 20 and 50 'likes'. These could then be set as tasks for students to visit the site and rack up the 'likes' to earn the trophies.
 
@@ -140,4 +140,3 @@ Providing a personalised dashboard experience for each user is not simple, altho
 - a rolling pool of tips would make the leaderboard appear fresh
 
 Requiring log in is an extra barrier. Either showing up on a visit to the dashboard, or as a notification pushed to students. Students could 'save'.
-
