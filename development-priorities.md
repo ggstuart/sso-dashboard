@@ -103,9 +103,17 @@ We could also consider gamification of dashboard visits. We could offer a 'follo
 
 ## Review baseline calculations
 
-The data administration side of the dashboard is extremely demanding and time-consuming. When data are not perfect and halls are electrically heated or cooled the calculations are challenging and need constant attention. Since the user interface is not so sophisticated, this whole aspect of the dashboard could be usefully overhauled.
+The underlying calculations which are continuously happening on the dashboard server are fairly simple, being based on an average daily consumption value. These calculations are appropriate in most cases but in a significant proportion of halls they require administrative users to 'adjust' the calculated baselines. This is needed when e.g. halls are electrically heated, where changes have been made to energy systems or when the raw data are problematic.
 
-There are several tweaks and small improvements which could be made to the interface as well as major new approaches to the way baselines are created and managed. This area is an open territory but has unseen benefits for students in terms of reliability and trust in the dashboard.
+There are two areas where improvements could be made:
+
+1. Review and update the calculation procedure to may make it apply more widely, for example by adding degree day correction into the calculation. This would be fairly difficult and needs work to elaborate into clear features.
+
+2. The user interface for baseline calculations is currently fairly opaque and restrictive. We could think about how to make the baseline setting functionality more flexible and transparent, giving more control to the administrator. For example, when specifying a competitor baseline the user may be able to freely edit the daily targets which are suggested by the automated calculation.
+
+3. Raw data are visible in the dashboard but there is limited functionality to manage and edit the raw data. When data are not perfect there is often a use-case for editing. Since the user interface is not so sophisticated, this whole aspect of the dashboard could be usefully overhauled. This links with graphical presentation of the data also.
+
+
 
 **NOTES TO DISCUSS:**
 
