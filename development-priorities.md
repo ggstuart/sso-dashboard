@@ -90,6 +90,7 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 3. move the position numbers away from the image, and show them on all competitors
 
+4. highlight halls who have improved their savings (technical challenge)
 
 ## Integration with the campaign
 
