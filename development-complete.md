@@ -1,3 +1,5 @@
+[intro](readme.md) | [development options](development-options.md) | [completed features](development-complete.md)
+
 # Completed features
 
 ## Shorter competitions
@@ -7,4 +9,4 @@
 - if an unpublished competition becomes main, it will be published
 - unpublished competitons no longer appear on the public list of competitions
 
-
+Before/after images to follow
