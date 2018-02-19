@@ -1,4 +1,4 @@
- **intro** | [development options](development-options.md) | [completed features](development-complete.md)
+ **intro | [development options](development-options.md) | [completed features]**(development-complete.md)
 
 # Documentation for the Student Switch Off dashboard development process
 
