@@ -1,4 +1,4 @@
-**[intro](readme.md) | [development options](development-options.md) | completed features**
+[**intro**](readme.md) | [**development options**](development-options.md) | **completed features**
 
 # Completed features
 
