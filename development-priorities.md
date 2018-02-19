@@ -84,6 +84,7 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 4. highlight halls who have improved their savings (technical challenge)
 
+
 ## Integration with the campaign
 
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how the dashboard can be displayed and how it integrates with social media.
@@ -112,6 +113,7 @@ There are two areas where improvements could be made:
 2. The user interface for baseline calculations is currently fairly opaque and restrictive. We could think about how to make the baseline setting functionality more flexible and transparent, giving more control to the administrator. For example, when specifying a competitor baseline the user may be able to freely edit the daily targets which are suggested by the automated calculation.
 
 3. Raw data are visible in the dashboard but there is limited functionality to manage and edit the raw data. When data are not perfect there is often a use-case for editing. Since the user interface is not so sophisticated, this whole aspect of the dashboard could be usefully overhauled. This links with graphical presentation of the data also.
+
 
 ## Personalise the dashboard
 
