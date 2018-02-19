@@ -1,4 +1,4 @@
-[intro](readme.md) | [development options](development-options.md) | [completed features](development-complete.md)
+[intro](readme.md) | **development options** | [completed features](development-complete.md)
 
 # ECOVISUM development options
 
