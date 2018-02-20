@@ -25,22 +25,25 @@ A university's home page shows their current 'main' competition - the league tab
 
 Hall competitor savings/increases are calculated by dividing into individual days, each having a target and an actual consumption value. The competition presents the current total cumulative saving for each competitor.
 
-**Potential solutions**
+### Potential solutions
 
 1. Students only see the main competition and cannot access older competitions.
-This solution removes the immediate problem in Cyprus (13 competitions listed) but does not add new functionality.
+This solution removes the immediate problem in Cyprus (13 competitions listed) but does not add new functionality. **[CLOSED: will not be implemented]**
 
 2. Students only see relevant competitions - older competitions are 'archived' by administrators.
-This introduces an element of more sophisticated competition management. Perhaps competitions can be published, archived or hidden? Students could view a list of archived competitions through an additional click.
+This introduces an element of more sophisticated competition management. Perhaps competitions can be published, archived or hidden? Students could view a list of archived competitions through an additional click. **[OPEN: mostly implemented]**
 
 3. Competitions are (optionally) operated on a rolling basis.
-We provide an option in the competition editor to enable the leaderboard to operate on recent savings (e.g. the latest 28 days) by default rather than total cumulative savings. Total cumulative performance over the whole period is still available but only shown with an optional click. In this way students are always able to climb the leaderboard by making shorter term efforts and the overall winner is de-emphasised until the end of the competition period, when it will again become the default.
+We provide an option in the competition editor to enable the leaderboard to operate on recent savings (e.g. the latest 28 days) by default rather than total cumulative savings. Total cumulative performance over the whole period is still available but only shown with an optional click. In this way students are always able to climb the leaderboard by making shorter term efforts and the overall winner is de-emphasised until the end of the competition period, when it will again become the default. **[OPEN: could be implemented]**
+
+### Further issues and options
 
 > Question: Will universities EVER need to run more than one competition simultaneously?
 
-If parallel competitions are allowed then students must be able to browse available competitions.  
-This makes it more difficult to set a 'main' competition.  
-Students could select a 'default' competition of their choice - this can be remembered by their browser.
+- If parallel competitions are allowed then students must be able to browse available competitions.  
+- This makes it more difficult to set a 'main' competition.
+
+- Students could select a 'default' competition of their choice to be remembered by their browser.
 
 
 ## Graphical display of data
@@ -49,7 +52,7 @@ Students are presented with a potentially confusing technical data table when th
 
 In addition to this there are areas in the administration system where raw data are presented which need to be reviewed. Good quality data are crucial to the correct operation of the dashboard.
 
-**Potential solutions**
+### Potential solutions
 
 - Displaying the same data in a graphical form would enable students to interpret their progress at a glance
 - an extra click could still open the (read-only for students) data table
@@ -62,7 +65,7 @@ Displaying percentage savings hides the absolute contribution made by each hall.
 
 Students cannot quantify the overall contribution of the competition. There is no summary view to quantify the value of the competition as a whole.
 
-**Potential solutions**
+### Potential solutions
 
 1. Show absolute kWh, CO2 and possibly financial (currency?) savings figures against each competitor.
 This might be initially hidden but could be revealed on clicking the competitor.
@@ -76,7 +79,7 @@ Both these features require a conversion factor for CO2 kg/kWh and for currency 
 
 The leaderboard has a few visual problems in various sizes. The numbers highlighting the top three obscure the images and are not clearly highlighted. The mobile size leaderboard has a large header which requires the user to scroll down before actually seeing the top three. It needs a complete review to refine the existing interface and to make room for new features such as the aggregate data.
 
-**Potential solutions**
+### Potential solutions
 
 1. redesign the top three to be more prominent, say as a 'podium'
 
@@ -91,7 +94,8 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how the dashboard can be displayed and how it integrates with social media.
 
-### Embeddable 'widgets'
+### Potential solution: embeddable 'widgets'
+
 The dashboard is available on any device with a web browser: phones, tablets, laptops and desktop-sized screens. and above, such as public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
 
 - a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages.
@@ -99,7 +103,7 @@ The dashboard is available on any device with a web browser: phones, tablets, la
 - A single competitor widget showing one hall in a competition
 - A summary of the aggregate data for one competition
 
-### Gamification of visits
+### Potential solution: gamification of visits
 
 We could also consider gamification of dashboard visits. We could offer a 'follow' button and record and present how many 'follows' a particular hall was getting. For example in a given competition, halls with a given number of 'follows' could be rewarded with a trophy or badge on the leaderboard. Admins could set multiple levels and award e.g. bronze, silver and gold trophies for 10, 20 and 50 'follows'. These could then be set as tasks for students to visit the site and rack up the 'follows' to earn the trophies.
 
@@ -107,6 +111,8 @@ We could also consider gamification of dashboard visits. We could offer a 'follo
 ## Review baseline calculations
 
 The underlying calculations which are continuously happening on the dashboard server are fairly simple, being based on an average daily consumption value. These calculations are appropriate in most cases but in a significant proportion of halls they require administrative users to 'adjust' the calculated baselines. This is needed when e.g. halls are electrically heated, where changes have been made to energy systems or when the raw data are problematic.
+
+### Potential solutions
 
 There are two areas where improvements could be made:
 
@@ -120,6 +126,8 @@ There are two areas where improvements could be made:
 ## Personalise the dashboard
 
 A personalised dashboard experience implies that we provide different information depending on the user and their preferences/behaviour. This can have a number of benefits, a personalised experience is more engaging, hall-specific calls to action will be more relevant to the user and rewarding users for their commitment can be reinforcing.
+
+### Potential solutions
 
 Providing such an experience can be done in two ways. We can either:
 
@@ -139,14 +147,14 @@ Without logins we can still collect anonymous data. This might include universit
 
 # Conclusions
 
-There are many areas where we can add new features. Some of the features described above are very clearly defined and can be actioned immediately. Other ideas are less well-defined and need more thought to tease out the concrete features lurking beneath the surface.
+New features could be added to many areas. Some of the features described here are very clearly defined and can be actioned immediately. Other ideas are less well-defined and need more thought to tease out the concrete features lurking beneath the surface.
 
-ECOVISUM are only able to implement features when they are clearly developed and when they are small enough to be implemented in a short time-frame. That is not to say that larger features cannot be implemented, it means larger features need to be broken down into collections of smaller features. This lends clarity to the process and helps to reveal where the real value is to users.
+ECOVISUM are only able to implement features once they are clearly developed and broken into small enough tasks to be implemented in short time-frames. Of course, larger features can be implemented, but only after they are broken into collections of smaller features. This lends clarity to the process and helps to reveal where the real value is to users.
 
-The task ahead is to set up an ongoing process of generating and prioritising features. ECOVISUM will do the hard work but the TAG will need to engage in the process and help steer us towards the best value. There are two main processes:
+The process of generating and prioritising features will be ongoing. ECOVISUM will do the hard work but the TAG will need to engage in this process to help steer us towards the best value. There are two main processes:
 
-1. Every month we need to pick a small number (about 2-4) of clearly-defined features which ECOVISUM will work on. We will aim to add the new functionality between TAG meetings. This is the 'sprint' schedule. Every month we will take on new features, the decision of which features we will implement will be made in the TAG meeting.
+1. Every month we need to pick a small number (about 2-4) of clearly-defined features which ECOVISUM will work on. We will aim to add the new functionality between TAG meetings. This is the 'sprint' schedule. Which features we will implement each month will be decided in the TAG meeting.
 
-2. We also need to make sure we have a long-list of concrete, well-defined features from which to draw from in each 'sprint'. ECOVISUM will continuously work to generate new concrete, actionable items for the list as long as there is enthusiasm for an area of development. We need to identify which of the less well-defined features we should focus on and how we might convert them into concrete features.
+2. We also need to make sure we have a long-list of concrete, well-defined features from which to draw from in each 'sprint'. ECOVISUM will continuously work towards generating new concrete, actionable items for the list as long as there is enthusiasm for an area of development. We need to identify which of the less well-defined features we should focus on and how we might break them into concrete features.
 
 We will maintain these lists on our github page [here](https://ggstuart.github.io/sso-dashboard/)
