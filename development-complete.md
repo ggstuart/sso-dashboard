@@ -31,7 +31,7 @@ Above: the competition manager *showing the new controls*
 
 ## Review leaderboard display
 
-For each competition there is now a dedicated link for shpwing the competition on large (e.g. plasma) screens. This addresses one of the points under this item:
+For each competition there is now a dedicated "full screen" link for shpwing the competition on large (e.g. plasma) screens. This addresses one of the points listed under this item:
 
 > a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages 
 
@@ -47,12 +47,13 @@ Above: the "large screen" link is designed for wide screen sizes
 
 ![large screen link](images/iframe-and-full-screen-links.png)
 
-- all competitions now have a dedicated "large screen" page
-- there is a maximum width in case a display is more than 2000 pixels wide
-- on larger screens, hall images are no longer cropped into a "letterbox" view
+- all competitions now have a dedicated "full screen" page (above)
+- there is an automatic "maximum width" limit, in case displays exceed 2000 pixels wide
 - the university logo and competition message is displayed alongside the competition
+- on larger screens, hall images are no longer cropped into a "letterbox" view
+- because more of the hall images are visible, the iFrame also looks better on wider screens
 
-### Features pending ([see full details in "Integration with the campaign"](integration-with-the-campaign))
+### Features pending ([see full details in "Integration with the campaign"](development-options.md#integration-with-the-campaign))
 
 - possible scrolling, customisable messages
 - other leaderboard display suggestions yet to be prioritised
