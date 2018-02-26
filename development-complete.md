@@ -28,3 +28,33 @@ Above: the competition manager *showing the new controls*
 - Competitions are (optionally) operated on a rolling basis, operating the leaderboard on recent savings (e.g. the latest 28 days) rather than total cumulative savings.
 
 ---
+
+## Review leaderboard display
+
+For each competition there is now a dedicated link for shpwing the competition on large (e.g. plasma) screens. This addresses one of the points under this item:
+
+> a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages 
+
+![large screen iframe](images/large-screen-iframe.png)
+
+Above: the iframe has problems at wide screen sizes
+
+![large screen page](images/large-screen-page.png)
+
+Above: the "large screen" link is designed for wide screen sizes
+
+### Summary of changes
+
+![large screen link](images/iframe-and-full-screen-links.png)
+
+- all competitions now have a dedicated "large screen" page
+- there is a maximum width in case a display is more than 2000 pixels wide
+- on larger screens, hall images are no longer cropped into a "letterbox" view
+- the university logo and competition message is displayed alongside the competition
+
+### Features pending ([see full details in "Integration with the campaign"](integration-with-the-campaign))
+
+- possible scrolling, customisable messages
+- other leaderboard display suggestions yet to be prioritised
+
+---

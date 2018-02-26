@@ -98,7 +98,7 @@ This implies placing the dashboard in as many contexts as possible, sharing clic
 
 The dashboard is available on any device with a web browser: phones, tablets, laptops and desktop-sized screens. and above, such as public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
 
-- a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages.
+- a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages **[OPEN: mostly implemented]**
 - A top-three "podium" style widget
 - A single competitor widget showing one hall in a competition
 - A summary of the aggregate data for one competition
