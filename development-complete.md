@@ -51,7 +51,7 @@ Above: the "large screen" link is designed for wide screen sizes
 - there is an automatic "maximum width" limit, in case displays exceed 2000 pixels wide
 - the university logo and competition message is displayed alongside the competition
 - on larger screens, hall images are no longer cropped into a "letterbox" view
-- because more of the hall images are visible, the iFrame also looks better on wider screens
+- less cropped hall images mean the iFrame also looks better on wider screens
 
 ### Features pending ([see full details in "Integration with the campaign"](development-options.md#integration-with-the-campaign))
 
