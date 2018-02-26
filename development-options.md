@@ -17,6 +17,8 @@ The following categories were highlighted in Dublin:
 
 ## Shorter competitions
 
+([see progress](development-complete.md#shorter-competitions))
+
 The implications of shorter competitions are mostly related to operational issues. However, there are aspects of the dashboard which would support shorter competitions.
 
 Students are currently presented with a list of competitions on the university home page. e.g. Cyprus lists 13 competitions. Competitions from previous years appear alongside current ones and test competitions are also visible to students. There is no way to manage the order of competitions or to delete/hide/archive competitions.
@@ -92,6 +94,8 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 ## Integration with the campaign
 
+([see progress](development-complete.md#integration-with-the-campaign))
+
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how the dashboard can be displayed and how it integrates with social media.
 
 ### Potential solution: embeddable 'widgets'
@@ -157,4 +161,4 @@ The process of generating and prioritising features will be ongoing. ECOVISUM wi
 
 2. We also need to make sure we have a long-list of concrete, well-defined features from which to draw from in each 'sprint'. ECOVISUM will continuously work towards generating new concrete, actionable items for the list as long as there is enthusiasm for an area of development. We need to identify which of the less well-defined features we should focus on and how we might break them into concrete features.
 
-We will maintain these lists on our github page [here](https://ggstuart.github.io/sso-dashboard/)
+We will maintain these lists on a [dedicated github page](https://ggstuart.github.io/sso-dashboard/)
