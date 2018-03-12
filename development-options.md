@@ -44,7 +44,6 @@ We provide an option in the competition editor to enable the leaderboard to oper
 
 - If parallel competitions are allowed then students must be able to browse available competitions.  
 - This makes it more difficult to set a 'main' competition.
-
 - Students could select a 'default' competition of their choice to be remembered by their browser.
 
 
@@ -113,6 +112,8 @@ We could also consider gamification of dashboard visits. We could offer a 'follo
 
 
 ## Review baseline calculations
+
+(**postponed until after this academic year's competitions are finished**)
 
 The underlying calculations which are continuously happening on the dashboard server are fairly simple, being based on an average daily consumption value. These calculations are appropriate in most cases but in a significant proportion of halls they require administrative users to 'adjust' the calculated baselines. This is needed when e.g. halls are electrically heated, where changes have been made to energy systems or when the raw data are problematic.
 
