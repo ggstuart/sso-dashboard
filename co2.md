@@ -6,14 +6,18 @@ Two options for displaying CO2 savings on the leaderboard. These are demos on th
 
 # Version 1
 
-<video autoplay controls>
+(full-screen bottom right)
+
+<video width="700" autoplay controls loop>
   <source src="videos/carbon-01.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
 # Version 2
 
-<video autoplay controls>
+(full-screen bottom right)
+
+<video width="700" autoplay controls loop>
   <source src="videos/carbon-02.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
