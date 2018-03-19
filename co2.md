@@ -1,8 +1,10 @@
 [**intro**](readme.md) | [**development options**](development-options.md) | [**completed features**](development-complete.md)
 
-# Test Feature
+# CO2 savings display
 
-Two options for displaying CO2 savings on the leaderboard. These are demos on the public large screen, but the "badges" could be displayed anywhere.
+See: [Aggregate data per university](development-options.md#aggregate-data-per-university), "Potential solutions" No. 2.
+
+Two options to display CO2 savings. These demos are shown on the public large screen, but the "badges" could be displayed anywhere.
 
 # Version 1
 

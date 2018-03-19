@@ -71,7 +71,7 @@ Students cannot quantify the overall contribution of the competition. There is n
 1. Show absolute kWh, CO2 and possibly financial (currency?) savings figures against each competitor.
 This might be initially hidden but could be revealed on clicking the competitor.
 
-2. Show a summary figure (kWh/CO2/currency) for the whole competition. Somewhere in the leaderboard it should be possible to display a total impact figure.
+2. See [two possible display options](co2.md) for comment. Show a summary figure (kWh/CO2/currency) for the whole competition. Somewhere in the leaderboard it should be possible to display a total impact figure.
 
 Both these features require a conversion factor for CO2 kg/kWh and for currency €/kWh or £/kWh. These would be additional configuration options at the competition level.
 
