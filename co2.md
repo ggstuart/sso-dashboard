@@ -24,6 +24,14 @@ Your browser does not support the video tag.
 Your browser does not support the video tag.
 </video>
 
+## Feedback so far
+
+Joanna:
+
+- Is it possible to have the little bubbles be more angular shapes (so it’s more on brand)?
+- I think it is confusing to have carbon savings in percentages plus also the minus sign is confusing – I think best to go with what you have in the second bubble – the actual amount saved
+- Please add aggregate kWhs too
+
 ## Related considerations
 
 To make more space for campaign-related features (like the tips) we propose to **remove two existing and probably redundant elements**:
