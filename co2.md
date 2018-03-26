@@ -6,7 +6,7 @@ See: [Aggregate data per university](development-options.md#aggregate-data-per-u
 
 Two options to display CO2 savings. These demos are shown on the public large screen, but the "badges" could be displayed anywhere.
 
-# Version 1
+## Version 1
 
 (full-screen bottom right)
 
@@ -15,7 +15,7 @@ Two options to display CO2 savings. These demos are shown on the public large sc
 Your browser does not support the video tag.
 </video>
 
-# Version 2
+## Version 2
 
 (full-screen bottom right)
 
@@ -23,3 +23,10 @@ Your browser does not support the video tag.
   <source src="videos/carbon-02.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+
+## Related considerations
+
+To make more space for campaign-related features (like the tips) we propose to **remove two existing and probably redundant elements**:
+
+1. the "drop-down" next to the University name where admins can enter a description of their choice. At the last check, only one uni is using this and it is not displayed anywhere
+2. the duplicated uni name above the logo, keeping just the uni name that appears within the logo (just as it is shown for each uni on the home page)
