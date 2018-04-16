@@ -32,6 +32,11 @@ Joanna:
 - I think it is confusing to have carbon savings in percentages plus also the minus sign is confusing – I think best to go with what you have in the second bubble – the actual amount saved
 - Please add aggregate kWhs too
 
+Marina:
+
+- I prefer the second option (kg of CO2 saved). kg or tonnes of CO2, rather than %, is the typical measure for CO2 savings
+- Do the CO2 savings correspond to carbon saved in the dorms so far? If so, the colours of the CO2 bubble should be a bit different. At the moment the energy saving tip and the CO2 savings "bubble" have the same colours (yellow and magenta). One could think that this carbon saving is related to the energy saving tip. This is enhanced by the fact that the bubble is right next to the energy saving tip
+
 ## Related considerations
 
 To make more space for campaign-related features (like the tips) we propose to **remove two existing and probably redundant elements**:
