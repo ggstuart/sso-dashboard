@@ -15,6 +15,7 @@ So, for each area of potential development we have defined some concrete feature
 The following categories were highlighted in Dublin:
 
 
+
 ## Shorter competitions
 
 ([see progress](development-complete.md#shorter-competitions))
@@ -47,6 +48,7 @@ We provide an option in the competition editor to enable the leaderboard to oper
 - Students could select a 'default' competition of their choice to be remembered by their browser.
 
 
+
 ## Graphical display of data
 
 Students are presented with a potentially confusing technical data table when they click a league table entry. The data table requires a significant effort to interpret.
@@ -58,6 +60,8 @@ In addition to this there are areas in the administration system where raw data 
 - Displaying the same data in a graphical form would enable students to interpret their progress at a glance
 - an extra click could still open the (read-only for students) data table
 - a graphical display of raw data would help administrators to identify data issues more easily
+- a 'notification' system for stale data, first step: list latest available data for each dataset
+
 
 
 ## Aggregate data per university
@@ -76,6 +80,7 @@ This might be initially hidden but could be revealed on clicking the competitor.
 Both these features require a conversion factor for CO2 kg/kWh and for currency €/kWh or £/kWh. These would be additional configuration options at the competition level.
 
 
+
 ## Review leaderboard display
 
 The leaderboard has a few visual problems in various sizes. The numbers highlighting the top three obscure the images and are not clearly highlighted. The mobile size leaderboard has a large header which requires the user to scroll down before actually seeing the top three. It needs a complete review to refine the existing interface and to make room for new features such as the aggregate data.
@@ -89,6 +94,7 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 3. move the position numbers away from the image, and show them on all competitors
 
 4. highlight halls who have improved their savings (technical challenge)
+
 
 
 ## Integration with the campaign
@@ -111,6 +117,7 @@ The dashboard is available on any device with a web browser: phones, tablets, la
 We could also consider gamification of dashboard visits. We could offer a 'follow' button and record and present how many 'follows' a particular hall was getting. For example in a given competition, halls with a given number of 'follows' could be rewarded with a trophy or badge on the leaderboard. Admins could set multiple levels and award e.g. bronze, silver and gold trophies for 10, 20 and 50 'follows'. These could then be set as tasks for students to visit the site and rack up the 'follows' to earn the trophies.
 
 
+
 ## Review baseline calculations
 
 (**postponed until after this academic year's competitions are finished**)
@@ -126,6 +133,7 @@ There are two areas where improvements could be made:
 2. The user interface for baseline calculations is currently fairly opaque and restrictive. We could think about how to make the baseline setting functionality more flexible and transparent, giving more control to the administrator. For example, when specifying a competitor baseline the user may be able to freely edit the daily targets which are suggested by the automated calculation.
 
 3. Raw data are visible in the dashboard but there is limited functionality to manage and edit the raw data. When data are not perfect there is often a use-case for editing. Since the user interface is not so sophisticated, this whole aspect of the dashboard could be usefully overhauled. This links with graphical presentation of the data also.
+
 
 
 ## Personalise the dashboard
