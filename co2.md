@@ -37,6 +37,13 @@ Marina:
 - I prefer the second option (kg of CO2 saved). kg or tonnes of CO2, rather than %, is the typical measure for CO2 savings
 - Do the CO2 savings correspond to carbon saved in the dorms so far? If so, the colours of the CO2 bubble should be a bit different. At the moment the energy saving tip and the CO2 savings "bubble" have the same colours (yellow and magenta). One could think that this carbon saving is related to the energy saving tip. This is enhanced by the fact that the bubble is right next to the energy saving tip
 
+TAG:
+
+- kWh/CO2 saved needs a CO2 conversion factor appropriate for each country, but Joanna and Richard mentioned the difficulty of getting up-to-date figures.
+- this needs admin input for a CO2 conversion factor, maybe for a message e.g. "[x] tonnes of carbon saved!".
+- the admin input should allow for language differences.
+
+
 ## Related considerations
 
 To make more space for campaign-related features (like the tips) we propose to **remove two existing and probably redundant elements**:
