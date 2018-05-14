@@ -177,3 +177,7 @@ The process of generating and prioritising features will be ongoing. ECOVISUM wi
 2. We also need to make sure we have a long-list of concrete, well-defined features from which to draw from in each 'sprint'. ECOVISUM will continuously work towards generating new concrete, actionable items for the list as long as there is enthusiasm for an area of development. We need to identify which of the less well-defined features we should focus on and how we might break them into concrete features.
 
 We will maintain these lists on a [dedicated github page](https://ggstuart.github.io/sso-dashboard/)
+
+---
+
+[top of page](#)
