@@ -2,9 +2,9 @@
 
 * auto-gen TOC:
 {:toc}
-{:toc_levels: 2..3}
 
 # Completed features
+{:.no_toc}
 
 ## Shorter competitions
 
