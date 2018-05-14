@@ -1,7 +1,8 @@
 [**intro**](readme.md) | [**development options**](development-options.md) | **completed features**
 
 * auto-gen TOC:
-{:toc_levels: 2..3}
+{:toc}
+{:.toc_levels: 2..3}
 
 # Completed features
 
