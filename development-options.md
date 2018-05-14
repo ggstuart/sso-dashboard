@@ -1,5 +1,8 @@
 [**intro**](readme.md) | **development options** | [**completed features**](development-complete.md)
 
+* auto-gen TOC:
+{:toc}
+
 # ECOVISUM development options
 
 For the next six months or so ECOVISUM will be focussing on developing the dashboard interface and adding new features. In many cases these will be tweaks to existing features, others will be small additional features. We may also embark on significant new functionality. The balance between small improvements and large, experimental new features is yet to be decided.
