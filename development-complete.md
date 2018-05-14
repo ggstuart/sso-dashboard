@@ -2,7 +2,7 @@
 
 * auto-gen TOC:
 {:toc}
-{:.toc_levels: 2..3}
+{:toc_levels: 2..3}
 
 # Completed features
 
