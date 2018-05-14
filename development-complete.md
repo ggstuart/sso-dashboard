@@ -1,6 +1,10 @@
 [**intro**](readme.md) | [**development options**](development-options.md) | **completed features**
 
+* auto-gen TOC:
+{:toc}
+
 # Completed features
+{:.no_toc}
 
 ## Shorter competitions
 
@@ -63,3 +67,5 @@ Above: the "large screen" link is designed for wide screen sizes
 - other leaderboard display suggestions yet to be prioritised
 
 ---
+
+[top of page](#)
