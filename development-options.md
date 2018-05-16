@@ -8,23 +8,22 @@
 # ECOVISUM development options
 {:.no_toc}
 
-For the next six months or so ECOVISUM will be focussing on developing the dashboard interface and adding new features. In many cases these will be tweaks to existing features, others will be small additional features. We may also embark on significant new functionality. The balance between small improvements and large, experimental new features is yet to be decided.
+For the next six months or so ECOVISUM will be focussing on developing the dashboard interface and adding new features. Some will be tweaks to existing features, others will be small additional features. We may also embark on significant new functionality. The balance between small improvements and large, experimental new features is yet to be decided.
 
-This report introduces some of the small to medium-sized initial development options to be prioritised for the next few months. This is an initial attempt to elaborate on options raised in the Dublin meeting and summarised on the whiteboard after the "world café" exercise. The intention is to suggest the first baby-steps in each proposed direction and start a broader discussion about which options we want to push the furthest.
+This report introduces some of the small to medium-sized initial development options prioritised for the next few months. This builds on options raised in the Dublin meeting and summarised on the whiteboard after the "world café" exercise. The intention is to suggest the first baby-steps in each proposed direction and start a broader discussion about which options we want to push the furthest.
 
-The list of potential features will be dynamic. We are always open to new ideas and adapting old ones. Potential features should be 'bite-size' so we can pick two or three features to develop at any one time. Together we will continuously prioritise the list so that the most valuable features are implemented first. In this way, some ideas may never be implemented and others may be continually developed. This is the core feature of an agile approach.
+The list of potential features will be dynamic. We are always open to new ideas and adapting old ones. Potential features should be 'bite-size' so we can pick two or three for development at any one time. Together we will continuously prioritise the list so that the most valuable features are implemented first. In this way, some ideas may be shelved while others may be continually developed. This is the core feature of an agile approach.
 
-It is crucial that we don't "bite off more than we can chew" as this can allow progress to stagnate. Any proposed large feature can usually be broken down into several smaller features, and this is the approach we have taken in this document. Each feature may seem small alone, but in the right combinations they support each other. We plan to make slow but steady progress, always delivering the maximum possible value for our time.
+It is crucial that we don't "bite off more than we can chew" as this can cause progress to stagnate. Any proposed large feature can usually be broken down into several smaller ones, which is the approach taken in this document. Each feature may seem small alone, but in the right combinations they support each other. We plan to make slow but steady progress, always delivering the maximum possible value for our time.
 
-So, for each area of potential development we have defined some concrete features. These need to be prioritised and added to the sprint schedule as part of the agile process. In the TAG meeting we will discuss the list and possibly refine it. Our next sprint will begin after the TAG meeting and will include a few ideas from this document. In the following TAG meeting we should expect to present the new features in the working dashboard.
+So, for each area of potential development we have defined some concrete features. These need to be prioritised and added to a "sprint schedule" as part of the agile process. In the TAG meeting we will discuss the list and possibly refine it. Our first sprint began after the TAG meeting and included a few ideas from this document. In successive TAG meetings we expect to present the new features in a working dashboard—you can [check feature progress on this page](development-complete.md).
 
-The following categories were highlighted in Dublin:
+The categories listed below are from the Dublin meeting:
+
+---
 
 
-
-## Shorter competitions
-
-([see progress](development-complete.md#shorter-competitions))
+## Shorter competitions: [see progress](development-complete.md#shorter-competitions)
 
 The implications of shorter competitions are mostly related to operational issues. However, there are aspects of the dashboard which would support shorter competitions.
 
@@ -36,13 +35,13 @@ Hall competitor savings/increases are calculated by dividing into individual day
 
 ### Potential solutions
 
-1. Students only see the main competition and cannot access older competitions.
+1. ~~Students only see the main competition and cannot access older competitions.~~  
 This solution removes the immediate problem in Cyprus (13 competitions listed) but does not add new functionality. **[CLOSED: will not be implemented]**
 
-2. Students only see relevant competitions - older competitions are 'archived' by administrators.
+2. Students only see relevant competitions - older competitions are 'archived' by administrators.  
 This introduces an element of more sophisticated competition management. Perhaps competitions can be published, archived or hidden? Students could view a list of archived competitions through an additional click. **[OPEN: mostly implemented]**
 
-3. Competitions are (optionally) operated on a rolling basis.
+3. Competitions are (optionally) operated on a rolling basis.  
 We provide an option in the competition editor to enable the leaderboard to operate on recent savings (e.g. the latest 28 days) by default rather than total cumulative savings. Total cumulative performance over the whole period is still available but only shown with an optional click. In this way students are always able to climb the leaderboard by making shorter term efforts and the overall winner is de-emphasised until the end of the competition period, when it will again become the default. **[OPEN: could be implemented]**
 
 ### Further issues and options
@@ -103,20 +102,19 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 
 
-## Integration with the campaign
+## Integration with the campaign: [see progress](development-complete.md#integration-with-the-campaign)
 
-([see progress](development-complete.md#integration-with-the-campaign))
-
-This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how the dashboard can be displayed and how it integrates with social media.
+This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how it can be displayed and also integrated with social media.
 
 ### Potential solution: embeddable 'widgets'
 
-The dashboard is available on any device with a web browser: phones, tablets, laptops and desktop-sized screens. and above, such as public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
+The dashboard is available on any device with a web browser: phones, tablets, laptops and desktop-sized screens and larger, such as public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
 
-- a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages **[OPEN: mostly implemented]**
-- A top-three "podium" style widget
-- A single competitor widget showing one hall in a competition
-- A summary of the aggregate data for one competition
+1. a wide–screen display with a thin leaderboard alongside a customisable area [DONE](development-complete.md#wide-screen-display)
+2. possibly with scrolling, customisable messages [DONE](development-complete.md#customisable-energy-saving-tips)
+3. A top–three "podium" style widget
+4. A single competitor widget showing one hall in a competition
+5. A summary of the aggregate data for one competition
 
 ### Potential solution: gamification of visits
 
@@ -124,7 +122,7 @@ We could also consider gamification of dashboard visits. We could offer a 'follo
 
 
 
-## Review baseline calculations
+## ~~Review baseline calculations~~
 
 (**postponed until after this academic year's competitions are finished**)
 
@@ -163,20 +161,21 @@ The benefits of storing preferences in the browser are that the user need not cr
 
 Without logins we can still collect anonymous data. This might include university and hall-level data. Requiring student login is an extra barrier but would give us the ability to collect individual data and validate student emails for example.
 
+---
 
 # Conclusions
 
-New features could be added to many areas. Some of the features described here are very clearly defined and can be actioned immediately. Other ideas are less well-defined and need more thought to tease out the concrete features lurking beneath the surface.
+New features could be added to many areas. The ones described here are clearly defined and can be actioned immediately. Other ideas are less well-defined and need more thought to tease out the concrete features lurking beneath the surface.
 
-ECOVISUM are only able to implement features once they are clearly developed and broken into small enough tasks to be implemented in short time-frames. Of course, larger features can be implemented, but only after they are broken into collections of smaller features. This lends clarity to the process and helps to reveal where the real value is to users.
+ECOVISUM are only able to implement features once they are clearly defined and broken into small enough tasks to be implemented in short time-frames. Of course, larger features can be implemented, but only after they are broken into collections of smaller features. This lends clarity to the process and helps locate the real value to users.
 
-The process of generating and prioritising features will be ongoing. ECOVISUM will do the hard work but the TAG will need to engage in this process to help steer us towards the best value. There are two main processes:
+The process of generating and prioritising features will be ongoing. ECOVISUM will do the hard work but the TAG needs to engage in this process alongside ECOVISUM to help steer us towards the best value. There are two main processes:
 
-1. Every month we need to pick a small number (about 2-4) of clearly-defined features which ECOVISUM will work on. We will aim to add the new functionality between TAG meetings. This is the 'sprint' schedule. Which features we will implement each month will be decided in the TAG meeting.
+1. Every month we pick a small number of clearly-defined features for ECOVISUM to work on. We will aim to add the chosen new functionality between TAG meetings. This is the 'sprint' schedule. The features to be implemented each month will be decided in the TAG meeting.
 
-2. We also need to make sure we have a long-list of concrete, well-defined features from which to draw from in each 'sprint'. ECOVISUM will continuously work towards generating new concrete, actionable items for the list as long as there is enthusiasm for an area of development. We need to identify which of the less well-defined features we should focus on and how we might break them into concrete features.
+2. We also need to maintain a long-list of concrete, well-defined features to draw from in each 'sprint'. ECOVISUM will continuously work towards generating new concrete, actionable items for the list as long as there is enthusiasm for a feature or group of features. We must also identify which of the less well-defined features need focus, and how to break them into concrete features.
 
-We will maintain these lists on a [dedicated github page](https://ggstuart.github.io/sso-dashboard/)
+These web pages are generated from Markdown text files and maintained on the [SSO Dashboard GitHub page](https://ggstuart.github.io/sso-dashboard/)
 
 ---
 

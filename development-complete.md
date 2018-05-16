@@ -18,8 +18,6 @@ Above: the competition manager *before* new features
 
 Above: the competition manager *showing the new controls*
 
-### Summary of changes
-
 - competitions can now be published/unpublished in the admin interface
 - the main competition cannot be unpublished
 - if an unpublished competition becomes main, it is automatically published
@@ -37,6 +35,10 @@ Above: the competition manager *showing the new controls*
 
 ## Integration with the campaign
 
+Multiple features were suggested, as completed, each is covered below
+
+### Wide-screen display
+
 For each competition there is now a dedicated "full screen" link for showing the competition on large (e.g. plasma) screens. This addresses one of the points listed under this item:
 
 > a wide-screen display with a thin leaderboard alongside a customisable area, possibly with scrolling, customisable messages 
@@ -49,8 +51,6 @@ Above: the iframe is unsuitable for wide screen sizes
 
 Above: the "large screen" link is designed for wide screen sizes
 
-### Summary of changes
-
 ![large screen link](images/iframe-and-full-screen-links.png)
 
 - all competitions now have a dedicated "full screen" page (above)
@@ -59,12 +59,40 @@ Above: the "large screen" link is designed for wide screen sizes
 - on larger screens, hall images are no longer cropped into a "letterbox" view
 - less cropped hall images mean the iFrame also looks better on wider screens
 
-### Features pending
+### Customisable energy-saving tips
+
+> possibly with scrolling, customisable messages
+
+Each university can now manage a series of encouraging energy-saving messages via "tips" in the admin screens. These are visible on the public competition page and the wide-screen display, but omitted from the iframe version as this is designed to show only the leaderboard itself.
+
+![large screen iframe](images/tips.png)
+
+Above: tips appear next to all competitions under the university logo
+
+![large screen page](images/tips-wide-screen.png)
+
+Above: tips on the wide-screen display are in a larger font and cycle automatically
+
+![large screen iframe](images/tips-admin.png)
+![large screen iframe](images/tips-admin-detail.png)
+
+Above: tips admin includes a brief "title" field for easier identification
+
+- the new "tips" admin tab is found on the right panel above the university logo
+- you can add, edit and delete any tip in the admin screens
+- tip titles are only visible to admins for easy identification in the list of tips e.g. "Summer 2018 tip 1" could read "Eat more ice-cream"
+- the "home" tab is gone—the university logo now opens the university home page
+- the tips cycle through each by default, and can be paused/played by the user
+- tips on the wide-screen version play automatically without controls
+
+### Features yet to be prioritised
 
 ([see full details in "Integration with the campaign"](development-options.md#integration-with-the-campaign))
 
-- possible scrolling, customisable messages
-- other leaderboard display suggestions yet to be prioritised
+- A top–three "podium" style widget
+- A single competitor widget showing one hall in a competition
+- A summary of the aggregate data for one competition
+
 
 ---
 
