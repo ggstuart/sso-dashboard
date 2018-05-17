@@ -74,16 +74,18 @@ Above: tips appear next to all competitions under the university logo
 Above: tips on the wide-screen display are in a larger font and cycle automatically
 
 ![large screen iframe](images/tips-admin.png)
+
+Above: the new "tips" admin tab is highlighted here, above the university logo
+
 ![large screen iframe](images/tips-admin-detail.png)
 
-Above: tips admin includes a brief "title" field for easier identification
+Above: tips admin screen includes a brief "title" field for easier identification
 
-- the new "tips" admin tab is found on the right panel above the university logo
-- you can add, edit and delete any tip in the admin screens
-- tip titles are only visible to admins for easy identification in the list of tips e.g. "Summer 2018 tip 1" could read "Eat more ice-cream"
+- you can add, edit and delete any tip from the "tips" admin screen
+- tip titles are for admins to help navigate the list of tips e.g. a tip with the admin title "Summer campaign 2018 tip 1" might have a public message encouraging students to "Stay cool - eat more ice-cream!"
 - the "home" tab is gone—the university logo now opens the university home page
-- the tips cycle through each by default, and can be paused/played by the user
-- tips on the wide-screen version play automatically without controls
+- the tips cycle through all available tips, and can be paused/played by the user
+- tips on the wide-screen version play automatically and the controls are hidden
 
 ### Features yet to be prioritised
 
