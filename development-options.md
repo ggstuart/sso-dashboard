@@ -92,12 +92,9 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 ### Potential solutions
 
-1. redesign the top three to be more prominent, say as a 'podium'
-
+1. redesign the top three to be more prominent, say as a 'podium' ([also see "Embeddable widgets" below](#potential-solution-embeddable-widgets))
 2. reduce the size of competitors below the top three so more are immediately visible
-
 3. move the position numbers away from the image, and show them on all competitors
-
 4. highlight halls who have improved their savings (technical challenge)
 
 
@@ -114,7 +111,7 @@ The dashboard is available on any device with a web browser: phones, tablets, la
 
 1. a wide–screen display with a thin leaderboard alongside a customisable area [DONE](development-complete.md#wide-screen-display)
 2. possibly with scrolling, customisable messages [DONE](development-complete.md#customisable-energy-saving-tips)
-3. A top–three "podium" style widget
+3. A "podium" style widget showing only the top three
 4. A single competitor widget showing one hall in a competition
 5. A summary of the aggregate data for one competition
 

@@ -91,7 +91,7 @@ Above: tips admin screen includes a brief "title" field for easier identificatio
 
 ([see full details in "Integration with the campaign"](development-options.md#integration-with-the-campaign))
 
-- A top–three "podium" style widget
+- A "podium" style widget showing only the top three
 - A single competitor widget showing one hall in a competition
 - A summary of the aggregate data for one competition
 
