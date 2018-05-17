@@ -102,7 +102,9 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 
 
-## Integration with the campaign: [see progress](development-complete.md#integration-with-the-campaign)
+## Integration with the campaign
+
+**[see progress](development-complete.md#integration-with-the-campaign)**
 
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how it can be displayed and also integrated with social media.
 
