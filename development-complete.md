@@ -87,6 +87,10 @@ Above: tips admin screen includes a brief "title" field for easier identificatio
 - the tips cycle through all available tips, and can be paused/played by the user
 - tips on the wide-screen version play automatically and the controls are hidden
 
+### Feedback on tips
+
+> It looks really good and I love the tips currently on display. Personally, I like the bright colors. It seems easy to navigate to me.
+
 ### Features yet to be prioritised
 
 ([see full details in "Integration with the campaign"](development-options.md#integration-with-the-campaign))
