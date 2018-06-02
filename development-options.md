@@ -71,6 +71,8 @@ In addition to this there are areas in the administration system where raw data 
 
 ## Aggregate data per university
 
+**[see progress](development-complete.md#aggregate-data-per-university)**
+
 Displaying percentage savings hides the absolute contribution made by each hall. Large halls need to make larger savings to get the same percentage result.
 
 Students cannot quantify the overall contribution of the competition. There is no summary view to quantify the value of the competition as a whole.
@@ -80,7 +82,7 @@ Students cannot quantify the overall contribution of the competition. There is n
 1. Show absolute kWh, CO2 and possibly financial (currency?) savings figures against each competitor.
 This might be initially hidden but could be revealed on clicking the competitor.
 
-2. See [two possible display options](co2.md) for comment. Show a summary figure (kWh/CO2/currency) for the whole competition. Somewhere in the leaderboard it should be possible to display a total impact figure.
+2. Show a summary figure (kWh/CO2/currency) for the whole competition by displaying a total impact figure somewhere in the leaderboard. Following feedback from the [two possible display options](co2.md) a ["CO2 savings" badge is now live](development-complete.md#aggregate-data-per-university).
 
 Both these features require a conversion factor for CO2 kg/kWh and for currency €/kWh or £/kWh. These would be additional configuration options at the competition level.
 

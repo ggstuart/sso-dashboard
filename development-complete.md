@@ -6,6 +6,7 @@
 # Completed features
 {:.no_toc}
 
+
 ## Shorter competitions
 
 These changes support the above option, enabling admins to optionally show and hide competitons from the public student view during testing and preparation, or when they are finished.
@@ -97,8 +98,14 @@ Above: tips admin screen includes a brief "title" field for easier identificatio
 
 - A "podium" style widget showing only the top three
 - A single competitor widget showing one hall in a competition
-- A summary of the aggregate data for one competition
 
+---
+
+## Aggregate data per university
+
+After [feedback on the earlier "CO2 badge" design ideas](co2.md) a CO2 savings badge now appears on every competition as soon as data has been calculated.
+
+For original details of the requested feature see [Aggregate data per university](development-options.md#aggregate-data-per-university).
 
 ---
 
