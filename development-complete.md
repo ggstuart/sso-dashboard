@@ -66,19 +66,19 @@ Above: the "large screen" link is designed for wide screen sizes
 
 Each university can now manage a series of encouraging energy-saving messages via "tips" in the admin screens. These are visible on the public competition page and the wide-screen display, but omitted from the iframe version as this is designed to show only the leaderboard itself.
 
-![large screen iframe](images/tips.png)
+![copmetition tips](images/tips.png)
 
 Above: tips appear next to all competitions under the university logo
 
-![large screen page](images/tips-wide-screen.png)
+![large screen tips](images/tips-wide-screen.png)
 
 Above: tips on the wide-screen display are in a larger font and cycle automatically
 
-![large screen iframe](images/tips-admin.png)
+![tips admin](images/tips-admin.png)
 
 Above: the new "tips" admin tab is highlighted here, above the university logo
 
-![large screen iframe](images/tips-admin-detail.png)
+![tips admin detail](images/tips-admin-detail.png)
 
 Above: tips admin screen includes a brief "title" field for easier identification
 
@@ -103,9 +103,19 @@ Above: tips admin screen includes a brief "title" field for easier identificatio
 
 ## Aggregate data per university
 
-After [feedback on the earlier "CO2 badge" design ideas](co2.md) a CO2 savings badge now appears on every competition as soon as data has been calculated.
+![savings bubble](images/kittens-saving-bigscreen-jun2018.png)
+
+![savings large screen](images/kittens-saving-jun2018.png)
+
+Above: the savings "bubble" on wide-screen and normal sized displays
+
+After [feedback on the earlier "CO2 badge" design ideas](co2.md) a savings badge now appears on every competition as soon as data has been calculated, fading in and out as previously shown. There will be an option per-competition to show or hide it.
 
 For original details of the requested feature see [Aggregate data per university](development-options.md#aggregate-data-per-university).
+
+Below: the savings "bubble" at mobile size
+
+![savings mobile](images/kittens-saving-mob-jun2018.png)
 
 ---
 
