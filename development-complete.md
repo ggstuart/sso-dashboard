@@ -109,13 +109,19 @@ Above: tips admin screen includes a brief "title" field for easier identificatio
 
 Above: the savings "bubble" on wide-screen and normal sized displays
 
-After [feedback on the earlier "CO2 badge" design ideas](co2.md) a savings badge now appears on every competition as soon as data has been calculated, fading in and out as previously shown. There will be an option per-competition to show or hide it.
+After [feedback on the earlier "CO2 badge" design ideas](co2.md) a savings badge now appears on every competition as soon as data has been calculated, fading in and out as previously shown.
 
-For original details of the requested feature see [Aggregate data per university](development-options.md#aggregate-data-per-university).
+There's an option per-competition to show or hide it in the admin screens:
+
+![savings bubble admin off](images/kittens-saving-admin-off-jun2018.png)
+
+![savings bubble admin on](images/kittens-saving-admin-on-jun2018.png)
 
 Below: the savings "bubble" at mobile size
 
 ![savings mobile](images/kittens-saving-mob-jun2018.png)
+
+For original details of the requested feature see [Aggregate data per university](development-options.md#aggregate-data-per-university).
 
 ---
 
