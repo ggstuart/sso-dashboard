@@ -116,6 +116,7 @@ The dashboard is available on any device with a web browser: phones, tablets, la
 3. A "podium" style widget showing only the top three
 4. A single competitor widget showing one hall in a competition
 5. A summary of the aggregate data for one competition
+6. Automatically refresh the public screen daily
 
 ### Potential solution: gamification of visits
 
