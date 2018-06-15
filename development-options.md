@@ -124,7 +124,7 @@ We could also consider gamification of dashboard visits. We could offer a 'follo
 
 
 
-## ~~Review baseline calculations~~
+## Review baseline calculations
 
 (**postponed until after this academic year's competitions are finished**)
 
