@@ -54,7 +54,7 @@ We provide an option in the competition editor to enable the leaderboard to oper
 
 
 
-## Graphical display of data
+## Graphical display of data (priority)
 
 Students are presented with a potentially confusing technical data table when they click a league table entry. The data table requires a significant effort to interpret.
 
@@ -101,7 +101,7 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 
 
-## Integration with the campaign
+## Integration with the campaign (priority)
 
 **[see progress](development-complete.md#integration-with-the-campaign)**
 
@@ -117,6 +117,7 @@ The dashboard is available on any device with a web browser: phones, tablets, la
 4. A single competitor widget showing one hall in a competition
 5. A summary of the aggregate data for one competition
 6. Automatically refresh the public screen daily
+7. editable cross-links with campaign websites
 
 ### Potential solution: gamification of visits
 
