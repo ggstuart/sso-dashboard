@@ -1,6 +1,13 @@
 [**intro**](readme.md) | **development options** | [**completed features**](development-complete.md)
 
-<!-- https://kramdown.gettalong.org/converter/html.html#toc -->
+<!-- 
+  https://kramdown.gettalong.org/converter/html.html#toc
+-->
+<!--
+  https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/toc.md
+  Markdown Preview Enhanced: cmd-shift-p -> Markdown Preview Enhanced: Create Toc.
+  To exclude a heading from the TOC, append {ignore=true} after your heading.
+-->
 
 * auto-gen TOC:
 {:toc}
@@ -8,17 +15,13 @@
 # ECOVISUM development options
 {:.no_toc}
 
-For the next six months or so ECOVISUM will be focussing on developing the dashboard interface and adding new features. Some will be tweaks to existing features, others will be small additional features. We may also embark on significant new functionality. The balance between small improvements and large, experimental new features is yet to be decided.
+From February—September 2018 ECOVISUM is focussing on developing the dashboard interface as agreed at Dublin (and summarised on the whiteboard after the "world café" exercise). As well as adaptations to existing features, there are new features and possible significant new functionality. The balance between small improvements and large experimental/new features is under periodic review with input from the TAG.
 
-This report introduces some of the small to medium-sized initial development options prioritised for the next few months. This builds on options raised in the Dublin meeting and summarised on the whiteboard after the "world café" exercise. The intention is to suggest the first baby-steps in each proposed direction and start a broader discussion about which options we want to push the furthest.
+The list below is open to feedback. Potential features should be 'bite-size' so we can pick two or three for development at any one time. Together, we will continuously prioritise features so the most valuable are implemented first. Some ideas may be shelved while others may be continually developed. This is the core feature of an agile approach.
 
-The list of potential features will be dynamic. We are always open to new ideas and adapting old ones. Potential features should be 'bite-size' so we can pick two or three for development at any one time. Together we will continuously prioritise the list so that the most valuable features are implemented first. In this way, some ideas may be shelved while others may be continually developed. This is the core feature of an agile approach.
+The first baby-steps for each proposed direction are suggested as a basis for a broader discussion about options we want to push the furthest. If we "bite off more than we can chew", progress will stagnate, so our approach is to break down large features into several smaller ones. Although each feature may seem small alone, in the right combinations they support each other. We aim for slow but steady progress, always delivering the maximum possible value for our time.
 
-It is crucial that we don't "bite off more than we can chew" as this can cause progress to stagnate. Any proposed large feature can usually be broken down into several smaller ones, which is the approach taken in this document. Each feature may seem small alone, but in the right combinations they support each other. We plan to make slow but steady progress, always delivering the maximum possible value for our time.
-
-So, for each area of potential development we have defined some concrete features. These need to be prioritised and added to a "sprint schedule" as part of the agile process. In the TAG meeting we will discuss the list and possibly refine it. Our first sprint began after the TAG meeting and included a few ideas from this document. In successive TAG meetings we expect to present the new features in a working dashboard—you can [check feature progress on this page](development-complete.md).
-
-The categories listed below are from the Dublin meeting:
+[All feature progress is updated on this page](development-complete.md).
 
 ---
 
@@ -80,11 +83,9 @@ Students cannot quantify the overall contribution of the competition. There is n
 ### Potential solutions
 
 1. Show absolute kWh, CO2 and possibly financial (currency?) savings figures against each competitor.
-This might be initially hidden but could be revealed on clicking the competitor.
+This might be initially hidden but could be revealed on clicking the competitor. This requires a conversion factor for CO2 kg/kWh and for currency €/kWh or £/kWh, and additional configuration options at the competition level.
 
-2. Show a summary figure (kWh/CO2/currency) for the whole competition by displaying a total impact figure somewhere in the leaderboard. Following feedback from the [two possible display options](co2.md) a ["CO2 savings" badge is now live](development-complete.md#aggregate-data-per-university).
-
-Both these features require a conversion factor for CO2 kg/kWh and for currency €/kWh or £/kWh. These would be additional configuration options at the competition level.
+2. Show a summary figure (kWh/CO2/currency) for the whole competition by displaying a total impact figure somewhere in the leaderboard. Following feedback from the [two possible display options](co2.md) a [per-competition "savings" badge is now live](development-complete.md#aggregate-data-per-university).
 
 
 
@@ -107,9 +108,9 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how it can be displayed and also integrated with social media.
 
-### Potential solution: embeddable 'widgets'
+### Potential solutions 1: embeddable 'widgets'
 
-The dashboard is available on any device with a web browser: phones, tablets, laptops and desktop-sized screens and larger, such as public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
+The dashboard is built for any device with a web browser: phones, tablets, laptop and desktop-sized screens and larger public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
 
 1. a wide–screen display with a thin leaderboard alongside a customisable area [DONE](development-complete.md#wide-screen-display)
 2. possibly with scrolling, customisable messages [DONE](development-complete.md#customisable-energy-saving-tips)
@@ -119,27 +120,23 @@ The dashboard is available on any device with a web browser: phones, tablets, la
 6. Automatically refresh the public screen daily
 7. editable cross-links with campaign websites
 
-### Potential solution: gamification of visits
+### Potential solutions 2: gamification of visits
 
-We could also consider gamification of dashboard visits. We could offer a 'follow' button and record and present how many 'follows' a particular hall was getting. For example in a given competition, halls with a given number of 'follows' could be rewarded with a trophy or badge on the leaderboard. Admins could set multiple levels and award e.g. bronze, silver and gold trophies for 10, 20 and 50 'follows'. These could then be set as tasks for students to visit the site and rack up the 'follows' to earn the trophies.
+We could also consider gamification of dashboard visits. For instance, a 'follow' button to record and present how many 'follows' a particular hall was getting. For example in a given competition, halls with a given number of 'follows' could be rewarded with a trophy or badge on the leaderboard. Admins could set multiple levels and award e.g. bronze, silver and gold trophies for 10, 20 and 50 'follows'. These could then be set as tasks for students to visit the site and rack up the 'follows' to earn the trophies.
 
 
 
 ## Review baseline calculations
 
-(**postponed until after this academic year's competitions are finished**)
-
-The underlying calculations which are continuously happening on the dashboard server are fairly simple, being based on an average daily consumption value. These calculations are appropriate in most cases but in a significant proportion of halls they require administrative users to 'adjust' the calculated baselines. This is needed when e.g. halls are electrically heated, where changes have been made to energy systems or when the raw data are problematic.
+The underlying calculations which are continuously happening on the dashboard server are fairly simple, being based on an average daily consumption value. While these calculations are appropriate in most cases, in a significant proportion of halls they require administrative users to 'adjust' the calculated baselines e.g. when halls are electrically heated, where changes have been made to energy systems or when the raw data are problematic.
 
 ### Potential solutions
 
-There are two areas where improvements could be made:
+1. **Review and update the calculation procedure** to make it apply more widely, for example by adding *degree day correction* into the calculation. This would be fairly difficult and needs work to elaborate into clear features.
 
-1. Review and update the calculation procedure to may make it apply more widely, for example by adding degree day correction into the calculation. This would be fairly difficult and needs work to elaborate into clear features.
+2. **Make the baseline setting functionality more flexible and transparent**, giving more control to the administrator. The user interface for baseline calculations is currently fairly opaque and restrictive and could be improved. For example, when specifying a competitor baseline the user may be able to freely edit the daily targets which are suggested by the automated calculation.
 
-2. The user interface for baseline calculations is currently fairly opaque and restrictive. We could think about how to make the baseline setting functionality more flexible and transparent, giving more control to the administrator. For example, when specifying a competitor baseline the user may be able to freely edit the daily targets which are suggested by the automated calculation.
-
-3. Raw data are visible in the dashboard but there is limited functionality to manage and edit the raw data. When data are not perfect there is often a use-case for editing. Since the user interface is not so sophisticated, this whole aspect of the dashboard could be usefully overhauled. This links with graphical presentation of the data also.
+3. **Improve management and editing of raw data**. Raw data are visible in the dashboard but when data are not perfect there is often a use-case for editing. The user interface is not so sophisticated and this whole aspect of the dashboard could be usefully overhauled. This links with graphical presentation of the data also.
 
 
 
@@ -168,15 +165,17 @@ Without logins we can still collect anonymous data. This might include universit
 
 # Conclusions
 
-New features could be added to many areas. The ones described here are clearly defined and can be actioned immediately. Other ideas are less well-defined and need more thought to tease out the concrete features lurking beneath the surface.
+Many new features could be added, so those described here are clearly defined and can be actioned immediately. Other ideas are less well-defined and need more thought to tease out the concrete features lurking beneath the surface.
 
-ECOVISUM are only able to implement features once they are clearly defined and broken into small enough tasks to be implemented in short time-frames. Of course, larger features can be implemented, but only after they are broken into collections of smaller features. This lends clarity to the process and helps locate the real value to users.
+ECOVISUM are only able to implement features once they are clearly defined and broken into small enough tasks to be realised in short time-frames. Larger features can be implemented only after being broken into collections of smaller features. This lends clarity to the process and helps locate the real value to users.
 
-The process of generating and prioritising features will be ongoing. ECOVISUM will do the hard work but the TAG needs to engage in this process alongside ECOVISUM to help steer us towards the best value. There are two main processes:
+The process of generating and prioritising features is ongoing. ECOVISUM will do the hard work but the TAG needs to engage in this process alongside ECOVISUM to help steer us towards the best value. There are two main processes:
 
-1. Every month we pick a small number of clearly-defined features for ECOVISUM to work on. We will aim to add the chosen new functionality between TAG meetings. This is the 'sprint' schedule. The features to be implemented each month will be decided in the TAG meeting.
+1. Every month we pick a small number of clearly-defined features for ECOVISUM to work on. We aim to add the chosen new functionality between TAG meetings. This is the 'sprint' schedule. The features to be implemented each month will be decided in the TAG meeting.
 
-2. We also need to maintain a long-list of concrete, well-defined features to draw from in each 'sprint'. ECOVISUM will continuously work towards generating new concrete, actionable items for the list as long as there is enthusiasm for a feature or group of features. We must also identify which of the less well-defined features need focus, and how to break them into concrete features.
+2. We also need to maintain a long-list of concrete, well-defined features to draw from in each 'sprint'. ECOVISUM will continuously work towards generating new concrete, actionable items for the list as long as there is enthusiasm for a feature or group of features. We must also identify which less well-defined features need focus, and how to break them into concrete features.
+
+---
 
 These web pages are generated from Markdown text files and maintained on the [SSO Dashboard GitHub page](https://ggstuart.github.io/sso-dashboard/)
 
