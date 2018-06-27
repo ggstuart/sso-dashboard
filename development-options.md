@@ -112,14 +112,13 @@ This implies placing the dashboard in as many contexts as possible, sharing clic
 
 The dashboard is built for any device with a web browser: phones, tablets, laptop and desktop-sized screens and larger public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
 
-1. a wide–screen display with a thin leaderboard alongside a customisable area [DONE](development-complete.md#wide-screen-display)
-2. possibly with scrolling, customisable messages [DONE](development-complete.md#customisable-energy-saving-tips)
+1. A wide–screen display with a thin leaderboard alongside a customisable area [DONE](development-complete.md#wide-screen-display)
+2. Possibly with scrolling, customisable messages [DONE](development-complete.md#customisable-energy-saving-tips)
 3. A "podium" style widget showing only the top three
 4. A single competitor widget showing one hall in a competition
 5. A summary of the aggregate data for one competition
 6. Automatically refresh the public screen daily
-7. editable cross-links with SSO campaign websites and Facebook pages
-8. auto-refresh dashboard app daily for public screens
+7. Editable cross-links with SSO campaign websites and Facebook pages
 
 ### Potential solutions 2: gamification of visits
 
