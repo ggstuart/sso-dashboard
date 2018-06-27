@@ -118,7 +118,8 @@ The dashboard is built for any device with a web browser: phones, tablets, lapto
 4. A single competitor widget showing one hall in a competition
 5. A summary of the aggregate data for one competition
 6. Automatically refresh the public screen daily
-7. editable cross-links with campaign websites
+7. editable cross-links with SSO campaign websites and Facebook pages
+8. auto-refresh dashboard app daily for public screens
 
 ### Potential solutions 2: gamification of visits
 
