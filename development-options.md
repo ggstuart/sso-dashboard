@@ -117,8 +117,17 @@ The dashboard is built for any device with a web browser: phones, tablets, lapto
 3. A "podium" style widget showing only the top three
 4. A single competitor widget showing one hall in a competition
 5. A summary of the aggregate data for one competition
-6. Automatically refresh the public screen daily
+6. Automatically refresh the public screen daily [DONE](development-complete.md#automatically-refresh-the-public-screen)
 7. Editable cross-links with SSO campaign websites and Facebook pages
+
+<!--
+FROM BUCHAREST
+
+I just looked through and made minor edits to the minutes from Bucharest: there were two items that might fall under "ability to personalise the rolling images" which I think refers to tips:
+
+1. add URLs to SSO websites, requested for the tips, but might be better more prominently displayed per-uni, so G and I will talk this through and bring it up in the next TAG;
+2. make the dashboard "more flashy and visual", this is too vague and needs pinning down, e.g. enable unis to add images of their campaign, although this is a significant feature so we'd need to ensure it doesn't compete with other priorities
+-->
 
 ### Potential solutions 2: gamification of visits
 

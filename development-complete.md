@@ -88,9 +88,13 @@ Above: tips admin screen includes a brief "title" field for easier identificatio
 - the tips cycle through all available tips, and can be paused/played by the user
 - tips on the wide-screen version play automatically and the controls are hidden
 
-### Feedback on tips
+Feedback on tips:
 
 > It looks really good and I love the tips currently on display. Personally, I like the bright colors. It seems easy to navigate to me.
+
+### Automatically refresh the public screen
+
+This is now happening behind the scenes—all league tables are now refreshed every hour. There aren't any per-uni admin options, although the interval can be adjusted globally by Ecovisum if necessary.
 
 ### Features yet to be prioritised
 
@@ -98,6 +102,7 @@ Above: tips admin screen includes a brief "title" field for easier identificatio
 
 - A "podium" style widget showing only the top three
 - A single competitor widget showing one hall in a competition
+- Editable cross-links with SSO campaign websites and Facebook pages
 
 ---
 
