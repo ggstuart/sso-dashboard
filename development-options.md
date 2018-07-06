@@ -119,7 +119,8 @@ The dashboard is built for any device with a web browser: phones, tablets, lapto
 4. A single competitor widget showing one hall in a competition
 5. A summary of the aggregate data for one competition
 6. Automatically refresh the public screen daily [DONE](development-complete.md#automatically-refresh-the-public-screen)
-7. Add social media links to SSO campaign websites (per country) and Facebook pages (per competition) and remove existing social media links
+7. Add social media links to SSO campaign websites (per country) and Facebook pages (per competition)
+8. Retain existing NUS SwitchOff social media links on the home page only
 
 <!--
 FROM BUCHAREST
