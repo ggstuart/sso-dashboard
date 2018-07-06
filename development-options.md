@@ -70,6 +70,7 @@ In addition to this there are areas in the administration system where raw data 
 - A graphical display of raw data would help administrators to identify data issues more easily
 - A 'notification' system for stale data, first step: list latest available data for each dataset
 - Highlight data anomalies at-a-glance somewhere in the admin screens
+- Data quality report triggered by anomalous readings
 
 
 
@@ -125,7 +126,7 @@ The dashboard is built for any device with a web browser: phones, tablets, lapto
 <!--
 FROM BUCHAREST
 
-I just looked through and made minor edits to the minutes from Bucharest: there were two items that might fall under "ability to personalise the rolling images" which I think refers to tips:
+minor edits to minutes from Bucharest: there were two items that might fall under "ability to personalise the rolling images" which I think refers to tips:
 
 1. add URLs to SSO websites, requested for the tips, but might be better more prominently displayed per-uni, so G and I will talk this through and bring it up in the next TAG;
 2. make the dashboard "more flashy and visual", this is too vague and needs pinning down, e.g. enable unis to add images of their campaign, although this is a significant feature so we'd need to ensure it doesn't compete with other priorities
