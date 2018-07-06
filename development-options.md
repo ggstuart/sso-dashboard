@@ -66,9 +66,10 @@ In addition to this there are areas in the administration system where raw data 
 ### Potential solutions
 
 - Displaying the same data in a graphical form would enable students to interpret their progress at a glance
-- an extra click could still open the (read-only for students) data table
-- a graphical display of raw data would help administrators to identify data issues more easily
-- a 'notification' system for stale data, first step: list latest available data for each dataset
+- An extra click could still open the (read-only for students) data table
+- A graphical display of raw data would help administrators to identify data issues more easily
+- A 'notification' system for stale data, first step: list latest available data for each dataset
+- Highlight data anomalies at-a-glance somewhere in the admin screens
 
 
 
@@ -118,7 +119,7 @@ The dashboard is built for any device with a web browser: phones, tablets, lapto
 4. A single competitor widget showing one hall in a competition
 5. A summary of the aggregate data for one competition
 6. Automatically refresh the public screen daily [DONE](development-complete.md#automatically-refresh-the-public-screen)
-7. Editable cross-links with SSO campaign websites and Facebook pages
+7. Add social media links to SSO campaign websites (per country) and Facebook pages (per competition) and remove existing social media links
 
 <!--
 FROM BUCHAREST
