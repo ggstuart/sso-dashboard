@@ -55,6 +55,8 @@ Joanna commented:
 - A 'notification' system for stale data, first step: list latest available data for each dataset
 - Data quality report triggered by anomalous readings
 
+For original details of the requested feature see [Graphical display of data (priority)](development-options.md#graphical-display-of-data-priority).
+
 ---
 
 ## Integration with the campaign
