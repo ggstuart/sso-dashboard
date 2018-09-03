@@ -34,6 +34,29 @@ Above: the competition manager *showing the new controls*
 
 ---
 
+## Graphical display of data
+
+Clicking/tapping a hall (that has valid data) in any competition now opens a screen where there's a "table" and "chart" option. The "chart" opens the graphical display, which show actual consumption in red, and the target for savings as a yellow line:
+
+![graphical data display](images/graphical-data-display.png)
+
+For the above hall, you can clearly see the finer resolution of the data in the red graph, and an apparent anomaly in late November.
+
+For halls with a lower data resolution (e.g. weekly or monthly readings) the red graph will show in broader blocks:
+
+![graphical data display, monthly](images/graphical-data-display-monthly.png)
+
+Joanna commented:
+
+> is there a way to rename the ‘target consumption’ as something else? As that is a bit misleading, as it is not a target per se – it is a baseline that we want students to beat. And if students are ‘underusing’ their energy (they are far off the target), it might make them increase it!
+
+### Features pending
+
+- A 'notification' system for stale data, first step: list latest available data for each dataset
+- Data quality report triggered by anomalous readings
+
+---
+
 ## Integration with the campaign
 
 Multiple features were suggested, as completed, each is covered below

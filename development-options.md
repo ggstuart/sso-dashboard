@@ -59,17 +59,19 @@ We provide an option in the competition editor to enable the leaderboard to oper
 
 ## Graphical display of data (priority)
 
+**[see progress](development-complete.md#graphical-display-of-data)**
+
 Students are presented with a potentially confusing technical data table when they click a league table entry. The data table requires a significant effort to interpret.
 
 In addition to this there are areas in the administration system where raw data are presented which need to be reviewed. Good quality data are crucial to the correct operation of the dashboard.
 
 ### Potential solutions
 
-- Displaying the same data in a graphical form would enable students to interpret their progress at a glance
-- An extra click could still open the (read-only for students) data table
-- A graphical display of raw data would help administrators to identify data issues more easily
+- Displaying the same data in a graphical form would enable students to interpret their progress at a glance **DONE**
+- An extra click could still open the (read-only for students) data table **DONE**
+- A graphical display of raw data would help administrators to identify data issues more easily **DONE**
+- Highlight data anomalies at-a-glance somewhere in the admin screens **DONE**
 - A 'notification' system for stale data, first step: list latest available data for each dataset
-- Highlight data anomalies at-a-glance somewhere in the admin screens
 - Data quality report triggered by anomalous readings
 
 
