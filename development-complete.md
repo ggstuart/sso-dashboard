@@ -27,7 +27,7 @@ Above: the competition manager *showing the new controls*
 
 ### Features pending
 
-([see full details in "Development Options"](development-options.md#shorter-competitions-see-progress))
+([see full details in "Shorter Competitions"](development-options.md#shorter-competitions-see-progress))
 
 - Enable archiving of competitions (as well as publishing/unpublishing) and present archived competitions in a secondary list publicly viewable through an additional click.
 - Competitions are (optionally) operated on a rolling basis, operating the leaderboard on recent savings (e.g. the latest 28 days) rather than total cumulative savings.
@@ -55,7 +55,7 @@ Joanna commented:
 - A 'notification' system for stale data, first step: list latest available data for each dataset
 - Data quality report triggered by anomalous readings
 
-For original details of the requested feature see [Graphical display of data (priority)] (development-options.md#graphical-display-of-data-priority-see-progress).
+For original details of the requested feature see [Graphical display of data](development-options.md#graphical-display-of-data-priority-see-progress).
 
 ---
 
