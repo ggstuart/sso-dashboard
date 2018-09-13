@@ -57,9 +57,7 @@ We provide an option in the competition editor to enable the leaderboard to oper
 
 
 
-## Graphical display of data (priority)
-
-**[see progress](development-complete.md#graphical-display-of-data)**
+## Graphical display of data: [Priority, see progress](development-complete.md#graphical-display-of-data)
 
 Students are presented with a potentially confusing technical data table when they click a league table entry. The data table requires a significant effort to interpret.
 
@@ -76,9 +74,7 @@ In addition to this there are areas in the administration system where raw data 
 
 
 
-## Aggregate data per university
-
-**[see progress](development-complete.md#aggregate-data-per-university)**
+## Aggregate data per university: [see progress](development-complete.md#aggregate-data-per-university)
 
 Displaying percentage savings hides the absolute contribution made by each hall. Large halls need to make larger savings to get the same percentage result.
 
@@ -106,9 +102,7 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 
 
-## Integration with the campaign (priority)
-
-**[see progress](development-complete.md#integration-with-the-campaign)**
+## Integration with the campaign: Priority, [see progress](development-complete.md#integration-with-the-campaign)
 
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how it can be displayed and also integrated with social media.
 
