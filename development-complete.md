@@ -27,7 +27,7 @@ Above: the competition manager *showing the new controls*
 
 ### Features pending
 
-([see full details in "Development Options"](development-options.md#shorter-competitions))
+([see full details in "Development Options"](development-options.md#shorter-competitions-see-progress))
 
 - Enable archiving of competitions (as well as publishing/unpublishing) and present archived competitions in a secondary list publicly viewable through an additional click.
 - Competitions are (optionally) operated on a rolling basis, operating the leaderboard on recent savings (e.g. the latest 28 days) rather than total cumulative savings.
@@ -55,7 +55,7 @@ Joanna commented:
 - A 'notification' system for stale data, first step: list latest available data for each dataset
 - Data quality report triggered by anomalous readings
 
-For original details of the requested feature see [Graphical display of data (priority)](development-options.md#graphical-display-of-data-priority).
+For original details of the requested feature see [Graphical display of data (priority)] (development-options.md#graphical-display-of-data-priority-see-progress).
 
 ---
 
@@ -123,7 +123,7 @@ This is now happening behind the scenes—all league tables are now refreshed ev
 
 ### Features yet to be prioritised
 
-([see full details in "Integration with the campaign"](development-options.md#integration-with-the-campaign))
+([see full details in "Integration with the campaign"](development-options.md#integration-with-the-campaign-priority-see-progress))
 
 - A "podium" style widget showing only the top three
 - A single competitor widget showing one hall in a competition
@@ -151,7 +151,7 @@ Below: the savings "bubble" at mobile size
 
 ![savings mobile](images/kittens-saving-mob-jun2018.png)
 
-For original details of the requested feature see [Aggregate data per university](development-options.md#aggregate-data-per-university).
+For original details of the requested feature see [Aggregate data per university](development-options.md#aggregate-data-per-university-see-progress).
 
 ---
 
