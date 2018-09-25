@@ -121,7 +121,7 @@ Feedback on tips:
 
 ![tips url screen](images/tip-urls.png)
 
-Added later on request, you can now add links to any tip, so clicking on it could go to a page with (e.g.) more information about that tip, perhaps on a university's SAVES campaign pages.
+[Added later on request](development-options.html#added-at-bucharest-and-september-tag-meeting), you can now add links to any tip, so clicking on it could go to a page with (e.g.) more information about that tip, perhaps on a university's SAVES campaign pages.
 
 You could also use a tip to link to your campaign website.
 
