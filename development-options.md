@@ -57,7 +57,7 @@ We provide an option in the competition editor to enable the leaderboard to oper
 
 
 
-## Graphical display of data: [Priority, see progress](development-complete.md#graphical-display-of-data)
+## Graphical display of data: [Priority, DONE](development-complete.md#graphical-display-of-data)
 
 Students are presented with a potentially confusing technical data table when they click a league table entry. The data table requires a significant effort to interpret.
 
@@ -106,6 +106,17 @@ The leaderboard has a few visual problems in various sizes. The numbers highligh
 
 This implies placing the dashboard in as many contexts as possible, sharing clickable and other visible links to a university's dashboard as widely as possible to maximise views. The implications for the dashboard are mostly regarding how it can be displayed and also integrated with social media.
 
+<!--
+Further items from Bucharest could be added here: "ability to personalise the rolling images" which I think refers to tips:
+
+1. add URLs to SSO websites, requested for the tips, but might be better more prominently displayed per-uni, so G and I will talk this through and bring it up in the next TAG;
+2. make the dashboard "more flashy and visual", this is too vague and needs pinning down, e.g. enable unis to add images of their campaign, although this is a significant feature so we'd need to ensure it doesn't compete with other priorities
+-->
+
+### Added at Bucharest and September TAG meeting
+
+Add links to the rolling tips, so they can be clicked on to go to (say) more information on that tip from e.g. other SAVES websites. [DONE](development-complete.md#links-on-tips)
+
 ### Potential solutions 1: embeddable 'widgets'
 
 The dashboard is built for any device with a web browser: phones, tablets, laptop and desktop-sized screens and larger public screens. However, the embeddable 'widgets' we have are currently pretty basic, so we could consider developing a suite of embeddable widgets, for example:
@@ -118,15 +129,6 @@ The dashboard is built for any device with a web browser: phones, tablets, lapto
 6. Automatically refresh the public screen daily [DONE](development-complete.md#automatically-refresh-the-public-screen)
 7. Add social media links to SSO campaign websites (per country) and Facebook pages (per competition)
 8. Retain existing NUS SwitchOff social media links on the home page only
-
-<!--
-FROM BUCHAREST
-
-minor edits to minutes from Bucharest: there were two items that might fall under "ability to personalise the rolling images" which I think refers to tips:
-
-1. add URLs to SSO websites, requested for the tips, but might be better more prominently displayed per-uni, so G and I will talk this through and bring it up in the next TAG;
-2. make the dashboard "more flashy and visual", this is too vague and needs pinning down, e.g. enable unis to add images of their campaign, although this is a significant feature so we'd need to ensure it doesn't compete with other priorities
--->
 
 ### Potential solutions 2: gamification of visits
 
