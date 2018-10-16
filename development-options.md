@@ -45,13 +45,14 @@ This solution removes the immediate problem in Cyprus (13 competitions listed) b
 This introduces an element of more sophisticated competition management. Perhaps competitions can be published, archived or hidden? Students could view a list of archived competitions through an additional click. **[OPEN: mostly implemented]**
 
 3. Competitions are (optionally) operated on a rolling basis.  
-We provide an option in the competition editor to enable the leaderboard to operate on recent savings (e.g. the latest 28 days) by default rather than total cumulative savings. Total cumulative performance over the whole period is still available but only shown with an optional click. In this way students are always able to climb the leaderboard by making shorter term efforts and the overall winner is de-emphasised until the end of the competition period, when it will again become the default. **[OPEN: could be implemented]**
+We provide an option in the competition editor to enable the leaderboard to operate on recent savings (e.g. the latest 28 days) by default rather than total cumulative savings. Total cumulative performance over the whole period is still available but only shown with an optional click. In this way students are always able to climb the leaderboard by making shorter term efforts and the overall winner is de-emphasised until the end of the competition period, when it will again become the default. **Issue:** despite any recent individual hall improvements, students may be disasppointed when seeing the final overall winner. **[OPEN: could be implemented]**
 
 ### Further issues and options
 
 > Question: Will universities EVER need to run more than one competition simultaneously?
 
-- If parallel competitions are allowed then students must be able to browse available competitions.  
+- If parallel competitions are allowed then students must be able to browse available competitions.
+- At present, if two competitions run simulataneously, dashboard admins can choose which to show.
 - This makes it more difficult to set a 'main' competition.
 - Students could select a 'default' competition of their choice to be remembered by their browser.
 
@@ -72,6 +73,13 @@ In addition to this there are areas in the administration system where raw data 
 - A 'notification' system for stale data, first step: list latest available data for each dataset
 - Data quality report triggered by anomalous readings
 
+### Further work
+
+Discussed at the TAG 16 Oct 2018:
+
+- Make the chart the default view
+- Improve the visual design and colours (pale neutral background, stretch the y-axis)
+- Make the key into switches to toggle visible chart elements
 
 
 ## Aggregate data per university: [see progress](development-complete.md#aggregate-data-per-university)
@@ -136,17 +144,17 @@ We could also consider gamification of dashboard visits. For instance, a 'follow
 
 
 
-## Review baseline calculations
+## Review baseline calculations: Priority
 
 The underlying calculations which are continuously happening on the dashboard server are fairly simple, being based on an average daily consumption value. While these calculations are appropriate in most cases, in a significant proportion of halls they require administrative users to 'adjust' the calculated baselines e.g. when halls are electrically heated, where changes have been made to energy systems or when the raw data are problematic.
 
 ### Potential solutions
 
-1. **Review and update the calculation procedure** to make it apply more widely, for example by adding *degree day correction* into the calculation. This would be fairly difficult and needs work to elaborate into clear features.
+1. **Make the baseline setting functionality more flexible and transparent (Priority)**, giving more control to the administrator. The user interface for baseline calculations is currently fairly opaque and restrictive and could be improved. For example, when specifying a competitor baseline the user may be able to freely edit the daily targets which are suggested by the automated calculation.
 
-2. **Make the baseline setting functionality more flexible and transparent**, giving more control to the administrator. The user interface for baseline calculations is currently fairly opaque and restrictive and could be improved. For example, when specifying a competitor baseline the user may be able to freely edit the daily targets which are suggested by the automated calculation.
+2. **Review and update the calculation procedure** to make it apply more widely, for example by adding *degree day correction* into the calculation. This would be fairly difficult and needs work to elaborate into clear features.
 
-3. **Improve management and editing of raw data**. Raw data are visible in the dashboard but when data are not perfect there is often a use-case for editing. The user interface is not so sophisticated and this whole aspect of the dashboard could be usefully overhauled. This links with graphical presentation of the data also.
+3. **Improve management and editing of raw data**. Raw data are visible in the dashboard but when data are not perfect there is often a use-case for editing. The user interface is not so sophisticated and this whole aspect of the dashboard could be usefully overhauled. This also links with graphical presentation of the data.
 
 
 
