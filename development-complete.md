@@ -1,11 +1,19 @@
 [**intro**](readme.md) | [**development options**](development-options.md) | **completed features**
 
-* auto-gen TOC:
-{:toc}
+- [Completed features](#completed-features)
+  - [Shorter competitions](#shorter-competitions)
+    - [Features pending](#features-pending)
+  - [Graphical display of data](#graphical-display-of-data)
+    - [Features pending](#features-pending-1)
+  - [Integration with the campaign](#integration-with-the-campaign)
+    - [Wide-screen display](#wide-screen-display)
+    - [Customisable energy-saving tips](#customisable-energy-saving-tips)
+    - [Links on tips](#links-on-tips)
+    - [Automatically refresh the public screen](#automatically-refresh-the-public-screen)
+    - [Features yet to be prioritised](#features-yet-to-be-prioritised)
+  - [Aggregate data per university](#aggregate-data-per-university)
 
 # Completed features
-{:.no_toc}
-
 
 ## Shorter competitions
 

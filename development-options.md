@@ -9,11 +9,28 @@
   To exclude a heading from the TOC, append {ignore=true} after your heading.
 -->
 
-* auto-gen TOC:
-{:toc}
+- [ECOVISUM development options](#ecovisum-development-options)
+  - [Shorter competitions: see progress](#shorter-competitions-see-progress)
+    - [Potential solutions](#potential-solutions)
+    - [Further issues and options](#further-issues-and-options)
+  - [Graphical display of data: Priority, DONE](#graphical-display-of-data-priority-done)
+    - [Potential solutions](#potential-solutions-1)
+    - [Further work](#further-work)
+  - [Aggregate data per university: see progress](#aggregate-data-per-university-see-progress)
+    - [Potential solutions](#potential-solutions-2)
+  - [Review leaderboard display](#review-leaderboard-display)
+    - [Potential solutions](#potential-solutions-3)
+  - [Integration with the campaign: Priority, see progress](#integration-with-the-campaign-priority-see-progress)
+    - [Added at Bucharest and September TAG meeting](#added-at-bucharest-and-september-tag-meeting)
+    - [Potential solutions 1: embeddable 'widgets'](#potential-solutions-1-embeddable-widgets)
+    - [Potential solutions 2: gamification of visits](#potential-solutions-2-gamification-of-visits)
+  - [Review baseline calculations: Priority](#review-baseline-calculations-priority)
+    - [Potential solutions](#potential-solutions-4)
+  - [Personalise the dashboard](#personalise-the-dashboard)
+    - [Potential solutions](#potential-solutions-5)
+- [Conclusions](#conclusions)
 
 # ECOVISUM development options
-{:.no_toc}
 
 From February—September 2018 ECOVISUM is focussing on developing the dashboard interface as agreed at Dublin (and summarised on the whiteboard after the "world café" exercise). As well as adaptations to existing features, there are new features and possible significant new functionality. The balance between small improvements and large experimental/new features is under periodic review with input from the TAG.
 
